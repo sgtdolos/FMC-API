@@ -1,0 +1,6 @@
+TestRange1,2.2.2.1-2.2.2.50,Range,Test Range 1
+Host1,1.2.3.4,Host,Test Host 1
+Host2,1.2.3.5,Host,Test Host 2
+Test1,1.2.3.0/24,Network,Test Network 1
+Test2,112.1.1.0/24,Network,Test Network 2
+TestRange2,1.1.1.45-1.1.1.62,Range,Test Range 2
