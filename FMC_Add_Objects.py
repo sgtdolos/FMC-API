@@ -99,7 +99,7 @@ with open(object_file) as csv_file:
                 out_row.append(obj_desc)
                 out_row.append(new_id)
                 out_row.append(obj_type)
-                with open(output_file, 'w', newline='') as out_file:
+                with open(output_file, 'a', newline='') as out_file:
                     writer = csv.writer(out_file)
                     writer.writerow(out_row)
                 print("")
